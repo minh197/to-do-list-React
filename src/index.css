@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 50px;
+  background-color: #66CCFF;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.strike {
+  text-decoration: line-through;
+}
+.toDoContainer{
+  border-radius: 15px;
+  color: white;
+  border: 3px solid rgb(36, 110, 194);
+  margin: 2.5em 2em;
+  padding: 0.7em;
+}
+.button{
+  background: rgb(12, 124, 251);
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;  
+}
+.incompleteBtn{
+  background: green;
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;  
+}
+.removeBtn{
+  background: red;
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+.header{
+  margin: 0.5em;
+  font-size: 2em;
+  text-align: center;
+}
+.createForm input[type=text]{
+  margin: 2.5em 2em;
+  width: 40%;
+  outline: none;
+  border: none;
+  padding: 0.7em;
+}
