@@ -43,7 +43,7 @@ function App() {
     <div className="App">
       <Header/>
       <div className='toDoContainer'>
-      <div className="header">Pending Items ({itemsRemaining})</div>
+      <div className="header">Pending Item ({itemsRemaining})</div>
       <div className='createForm'>
       <Form addItem={addItem}/>
       </div>
